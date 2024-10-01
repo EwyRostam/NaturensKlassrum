@@ -5,7 +5,7 @@ import Navbar from './sections/navbar'
 function App() {
 
   return (
-    <section>
+    <section className="">
       <Navbar />
       <h1>Naturens Klassrum</h1>
     </section>
