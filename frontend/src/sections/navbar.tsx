@@ -1,6 +1,6 @@
 const pages = ["Kurser", "Företag/Grupper", "Om oss"]
 
-function navbar() {
+export default function Navbar() {
     return (
         <section>
             {pages.map((page) => page)}
@@ -8,4 +8,3 @@ function navbar() {
     )
 }
 
-export default navbar()
