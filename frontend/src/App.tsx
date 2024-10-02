@@ -1,11 +1,10 @@
-import './App.css'
 import Page from './sections/Page'
 
 
 function App() {
 
   return (
-    <Page children={"Naturens Klassrum"}/>
+    <Page children={"Naturens Klassrum"} />
   )
 }
 
