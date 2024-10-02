@@ -1,14 +1,11 @@
 import './App.css'
-import Navbar from './sections/navbar'
+import Page from './sections/Page'
 
 
 function App() {
 
   return (
-    <section className="">
-      <Navbar />
-      <h1>Naturens Klassrum</h1>
-    </section>
+    <Page children={"Naturens Klassrum"}/>
   )
 }
 
