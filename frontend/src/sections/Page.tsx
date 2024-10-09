@@ -1,4 +1,4 @@
-import Bar from "./Bar.tsx"
+import Navbar from "./Navbar"
 
 type Props = {
     children: React.ReactNode
@@ -9,7 +9,7 @@ export default function Page({ children }: Props) {
 
     return (
         <section className="w-screen h-screen overflow-auto">
-            <Bar />
+            <Navbar />
             {children}
         </section>
     )
