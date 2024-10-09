@@ -1,4 +1,4 @@
-import Navbar from "./Navbar"
+import Navbar from "./Navbar.tsx"
 
 type Props = {
     children: React.ReactNode
